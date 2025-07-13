@@ -1,4 +1,4 @@
-module github.com/Dade11dado/Golang
+module mymodule
 
 go 1.24.5
 
