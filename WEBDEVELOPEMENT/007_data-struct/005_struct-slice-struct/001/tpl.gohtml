@@ -1,0 +1,19 @@
+
+<!DOCTYPRE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hello World</title>
+</head>
+<body>
+<ul>
+{{range .Wisdom}}
+<li>{{.Name}} - {{.State}}</li>
+{{end}}
+</ul>
+{{range .Transport}}
+<li>{{.Manufacturer}} - {{.Model}} - {{.Doors}}</li>
+{{end}}
+</ul>
+</body>
+</html>

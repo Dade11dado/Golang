@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Composition</title>
+</head>
+<body>
+   <h1>{{.Per.Name}}</h1> 
+   <h2>{{.Per.Age}}</h2>
+   {{if .LicenseToKill}}
+   <h3>Licensed to kill</h3>
+   {{else}}
+   <h3>Not Licensed</h3>
+   {{end}}
+</body>
+</html>
